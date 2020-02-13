@@ -1,0 +1,33 @@
+div.container {
+   margin-top: 1px;
+}
+
+div.work-bar {
+    background-color: rgb(99, 228, 200);
+    height: 60px;
+}
+
+div.input {
+    position: relative;
+}
+
+input.search-input {
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    width: 30%;
+    padding: var(--inputPaddingV) var(--inputPaddingH);
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--inputFontSize);
+    font-weight: inherit;
+    line-height: var(--inputLineHeight);
+    border: none;
+    border-radius: 0.4rem;
+    transition: box-shadow var(--transitionDuration);
+}
+
+.search-input::placeholder {
+  color: rgb(4, 52, 77);
+}
